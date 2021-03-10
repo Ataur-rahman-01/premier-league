@@ -1,0 +1,32 @@
+.condition-img {
+  width: 400px;
+  height: 300px;
+  margin: 30px;
+  padding: 20px;
+}
+.display-style {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(
+    90deg,
+    #020024 0%,
+    #090979 35%,
+    #00d4ff 100%
+  );
+  margin: 30px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.simple-card {
+  width: 200px;
+  height: 250px;
+  margin: 30px;
+  padding: 20px;
+  color: white;
+  margin-left: 50px;
+}
+p {
+  padding: 20px;
+  margin: 20px;
+}

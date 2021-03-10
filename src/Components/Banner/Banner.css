@@ -1,0 +1,8 @@
+.banner {
+  height: 250px;
+  width: 100%;
+  object-fit: fill;
+}
+h1 {
+  text-align: center;
+}
