@@ -9,9 +9,7 @@ import {
 import maleimg from "../../Img/male.png";
 import femaleimg from "../../Img/female.png";
 import "./Clubinfo.css";
-import fb from "../../Img/facebook.png";
-import ig from "../../Img/instagram.png";
-import tw from "../../Img/twitter.png";
+import { Facebook, Instagram, Twitter } from "react-bootstrap-icons";
 
 const Clubinfo = (props) => {
   const {
@@ -64,6 +62,31 @@ const Clubinfo = (props) => {
       </div>
       <p>{strDescriptionDE}</p>
       <p>{strDescriptionEN}</p>
+      <div className="center">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={"https://" + strFacebook}
+        >
+          <Facebook className="fa" size={50} />
+        </a>
+
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={"https://" + strInstagram}
+        >
+          <Instagram className="fa" size={50} />
+        </a>
+
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={"https://" + strTwitter}
+        >
+          <Twitter className="fa" size={50} />
+        </a>
+      </div>
     </div>
   );
 };

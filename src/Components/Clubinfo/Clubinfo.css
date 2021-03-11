@@ -30,3 +30,16 @@ p {
   padding: 20px;
   margin: 20px;
 }
+.center {
+  text-align: center;
+}
+.fa {
+  background: #3b5998;
+  color: white;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.fa:hover {
+  opacity: 0.7;
+}

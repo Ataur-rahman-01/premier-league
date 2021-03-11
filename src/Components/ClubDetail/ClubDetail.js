@@ -14,7 +14,7 @@ const ClubDetail = () => {
   return (
     <>
       {club.map((cb) => (
-        <Clubinfo club={cb}></Clubinfo>
+        <Clubinfo key={cb.idTeam} club={cb}></Clubinfo>
       ))}
     </>
   );
