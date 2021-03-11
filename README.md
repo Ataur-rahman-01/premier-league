@@ -7,5 +7,7 @@ Open: [https://premier-league-teams-info.netlify.app/](https://premier-league-te
 ### Feature
 
 1.Show all teams in premier league
+
 2.Show details of teams.
+
 3.Have conditional render image.
