@@ -30,7 +30,7 @@ const Clubinfo = (props) => {
       <img className="banner" src={strTeamBanner} alt="" />
 
       <div className="display-style">
-        <div className="container simple-card">
+        <div className="simple-card">
           <h2>{strTeam}</h2>
           <h5>
             <FontAwesomeIcon className="iconi" icon={faLocationArrow} />

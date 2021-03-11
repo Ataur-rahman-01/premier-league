@@ -1,7 +1,7 @@
 .condition-img {
-  width: 400px;
-  height: 300px;
-  margin: 30px;
+  width: 100%;
+  height: 400px;
+  margin: 20px;
   padding: 20px;
 }
 .display-style {
@@ -19,12 +19,11 @@
   border-radius: 10px;
 }
 .simple-card {
-  width: 200px;
+  width: 100%;
   height: 250px;
-  margin: 30px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
   color: white;
-  margin-left: 50px;
 }
 p {
   padding: 20px;
@@ -42,4 +41,33 @@ p {
 }
 .fa:hover {
   opacity: 0.7;
+}
+@media screen and (max-width: 800px) {
+  .display-style {
+    display: block;
+  }
+  .simple-card {
+    text-align: left;
+    margin-left: 25%;
+  }
+  .condition-img {
+    width: 100%;
+    height: 300px;
+    margin-left: 10px;
+  }
+  .banner {
+    height: 100px;
+    width: 100%;
+    object-fit: fill;
+  }
+  .responsive {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+  }
+  .club-container {
+    height: 300px;
+    width: 400px;
+  }
 }
